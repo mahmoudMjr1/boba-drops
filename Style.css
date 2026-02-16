@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: rgb(139, 112, 235);
+}
+h1{
+    color: blue
+}
+p{
+    color: white;
+    font-size: 22px;
+}
+img{
+    position: relative;
+    border: 2px red solid;
+    border-radius: 15px;
+}
+
+img:hover{
+    transform:scale(1.2);
+    left: 100px;
+    transition: 2s;
+}
+
+button{
+    background-color: burlywood;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
+    color: blue;
+    padding: 30px;
+    transform: scale(1.5);
+    transition: 3s;
+}
+
+a{
+    color: blue;
+    text-decoration: dashed;
+    border: 1px red solid;
+}
